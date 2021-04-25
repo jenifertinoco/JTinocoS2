@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JTinocoS2.VistaDos">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+                <Label Text="CALIFICACIONES UISRAEL" HorizontalTextAlignment="Center" TextColor="White" FontSize="16"/>
+            </Frame>
+          
+            <Entry x:Name="txtseg1" Placeholder="Ingrese la nota de seguimiento 1" Keyboard="Numeric"/>
+            <Entry x:Name="txtexa1" Placeholder="Ingrese la nota del Examen 1" Keyboard="Numeric"/>
+            <Entry x:Name="txtseg2" Placeholder="Ingrese la nota de seguimiento 1" Keyboard="Numeric"/>
+            <Entry x:Name="txtexa2" Placeholder="Ingrese la nota del Examen 1" Keyboard="Numeric"/>
+            <Entry x:Name="txtResultadonp1" Placeholder="NOTA PARCIAL 1" IsEnabled="False"/>
+            <Entry x:Name="txtResultadonp2" Placeholder="NOTA PARCIAL 2" IsEnabled="False"/>
+            <Entry x:Name="txtResultadof" Placeholder="NOTA FINAL" IsEnabled="False"/>
+
+            <Button x:Name="btnSumar" Text="Sumar" Clicked="btnSumar_Clicked"/>
+            
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
